@@ -3,7 +3,8 @@ Here is documentation and configs for the CASE audio system.
 
 Files:
 - `librespot-handler.sh` - Put in `/usr/local/bin/` and make executable. Handles some callbacks from raspotify
-- `conf` - Raspotify config. Put at `/etc/raspotify/conf`, probably requires sudo
+- `conf` - Raspotify config. Put at `/etc/raspotify/conf`
+- `snapserver.conf` - Snapserver config, put at `/etc/snapserver.conf`
 
 
 `raspotifyconf_old-251113` is an old config from before an update that broke streaming and updated the config.
