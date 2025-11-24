@@ -146,7 +146,7 @@ LIBRESPOT_NAME="CASE Audio"
 #LIBRESPOT_NORMALISATION_KNEE=1
 
 # The path to a script that gets run when one of librespot's events is triggered.
-LIBRESPOT_ONEVENT=librespot_handler.sh
+LIBRESPOT_ONEVENT=librespot-handler.sh
 
 # Pass a raw stream to the output. Only works with the pipe and subprocess backends.
 #LIBRESPOT_PASSTHROUGH=
