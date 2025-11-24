@@ -78,7 +78,7 @@ LIBRESPOT_DEVICE="/run/snapfifo"
 # Disable caching of the audio data.
 # Enabling audio data caching can take up a lot of space
 # if you don't limit the cache size with LIBRESPOT_CACHE_SIZE_LIMIT.
-# It can also wear out your Micro SD card. You have been warned. 
+# It can also wear out your Micro SD card. You have been warned.
 LIBRESPOT_DISABLE_AUDIO_CACHE=
 
 # Disable caching of credentials.
@@ -146,7 +146,7 @@ LIBRESPOT_NAME="CASE Audio"
 #LIBRESPOT_NORMALISATION_KNEE=1
 
 # The path to a script that gets run when one of librespot's events is triggered.
-LIBRESPOT_ONEVENT=librespot-handler.sh
+LIBRESPOT_ONEVENT="librespot-handler.sh"
 
 # Pass a raw stream to the output. Only works with the pipe and subprocess backends.
 #LIBRESPOT_PASSTHROUGH=
@@ -198,7 +198,7 @@ LIBRESPOT_VOLUME_CTRL="fixed"
 
 # This modifies the behavior of the Raspotify service.
 # If you have issues with this option DO NOT file a bug with librespot.
-# 
+#
 # By default librespot "download buffers" tracks, meaning that it downloads
 # the tracks to disk and plays them from the disk and then deletes them when
 # the track is over. This practice is very common, many other audio frameworks
